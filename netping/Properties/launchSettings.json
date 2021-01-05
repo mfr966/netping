@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "netping": {
+      "commandName": "Project",
+      "commandLineArgs": "-d windock001 -v"
+    }
+  }
+}

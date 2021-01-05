@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Michael Fromme</Authors>
+    <Company>netea GmbH</Company>
+    <Description>netping allows a quick ping check over groups of hostnames.</Description>
+    <Copyright>(c) 2020 netea GmbH.</Copyright>
+    <PackageLicenseExpression>MIT License</PackageLicenseExpression>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="System.Net.Ping" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
