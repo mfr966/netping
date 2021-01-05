@@ -89,4 +89,11 @@ $ netping -g db -D
 ```
 
 
+# Implementation
+
+C# .netCore 3.1
+
+Additional Libraries:
+* [CommandLineParser](https://github.com/commandlineparser/commandline) 2.8.0
+* System.Net.Ping (4.3.0)
 
